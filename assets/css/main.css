@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'kai.ttf';
+
+body {
+	color: #444;
+	font-family: "Noto Serif", "TW-Kai", serif;
+	line-height: 1.5;
+	margin: 1rem auto;
+	max-width: 50%;
+}
+
+header {
+	margin-bottom: 7%;
+	margin-top: 5%;
+}
+
+footer {
+	margin-top: 1rem;
+}
+
+a {
+	color: rgb(50, 90, 0);
+	text-decoration: none;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: rgb(120, 120, 120);
+}
+
+
+.main-title {
+	font-size: 250%;
+	display: inline-block;
+}
+
+.second-title {
+	margin-left: 2.5%;
+	font-size: 150%;
+	color: #444;
+	display: inline-block;
+}
+
+.menu {
+	padding: 0;
+	margin-top: 15%;
+	margin-bottom: 3%;
+	text-align: center;
+	font-size: larger;
+	font-weight: bold;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 1%;
+}
+
+.article-item {
+	margin-right: 1%;
+}
+
+.article-lead {
+	color: #444;
+	font-weight: bolder;
+}
+
+
+.article-text {
+	font-size: larger;
+}
+
+.date {
+	font-style: italic;
+	color: #666;
+}
+
+/* code */
+pre {
+	border-radius: 7px;
+  padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+  overflow-x: auto;
+}
+
+/* blockquote */
+blockquote > p {
+  display:inline;
+}
+blockquote:before {
+  content: '「';
+}
+blockquote:after {
+  content: '」';
+}

@@ -1,0 +1,16 @@
+<nav>
+	<ul class="menu">
+		{{ range .Site.Menus.main }}
+		<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+		{{ end }}
+	</ul>
+</nav>
+
+<!-- <p class="article-lead">My recent articles</p> -->
+{{ range first 5 site.RegularPages }}
+<a class="article-item" href="{{ .RelPermalink }}">{{ .LinkTitle }} ({{ .Date | time.Format ":date_long" }})</a>
+<br>
+{{ end }}
+<br>
+<hr>
+<p>Copyright © {{ now.Year }} {{ .Site.Params.displayName }}. </p>

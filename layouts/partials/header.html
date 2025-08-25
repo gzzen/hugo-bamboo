@@ -1,0 +1,15 @@
+<div class="title-field">
+	<h1 class="main-title">
+		<!-- Zizhen Guo -->
+		 {{ if .IsHome }}{{ .Site.Params.displayName }}{{ else }}{{ .Title }}{{ end }}
+	</h1>
+	<p class="second-title">
+		{{ if .IsHome }}
+		{{ .Site.Params.displayNameAlter }}
+		{{ else }}
+		{{ printf "%s · %s" .Site.Params.displayName .Site.Params.displayNameAlter }}
+		{{ end }}
+	</p>
+</div>
+<hr>
+

@@ -1,1 +1,7 @@
-# hugo-bamboo
+# Theme Name
+
+## Features
+
+## Installation
+
+## Configuration
