@@ -1,9 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://zizhen.me/'
 languageCode = 'en-us'
 
 [params]
-displayName = 'Li Bai'
-displayNameAlter = '李白'
+displayName = 'Zizhen Guo'
+displayNameAlter = '郭子桢'
 
 
 [[menus.main]]
